@@ -93,13 +93,10 @@
 			background: #BCCE98;
 		}
 
-		#left {
-			background: #DAE9BC;
+		#left, #right {
+			background: #ff9b06;
 		}
 		
-		#right {
-			background: #F7FDEB;
-		}
 
 		#center {
 			background: #fff;
