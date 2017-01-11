@@ -76,6 +76,11 @@
 			color: #555;
 		}
 
+		nav {
+			cursor:  auto;
+    		cursor:  url(cursor.png) 4 12, auto;
+		}
+
 		nav ul {
 			list-style-type: none;
 			margin: 0;
@@ -95,11 +100,6 @@
 
 		#left, #right {
 			background: #ffd11a;
-		}
-		
-
-		#center {
-			background: #fff;
 		}
 
 		#container .column {
