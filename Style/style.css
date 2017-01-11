@@ -77,8 +77,10 @@
 		}
 
 		nav {
-			cursor:  auto;
-    		cursor:  url(cursor.png) 4 12, auto;
+			cursor: auto;
+    		cursor: url(cursor.png) 1 3, auto;
+    		width:16px;
+    		height:16px;
 		}
 
 		nav ul {
@@ -95,7 +97,7 @@
 		#header, #footer {
 			font-size: large;
 			padding: 0.3em;
-			background: #666633;
+			background: #555555;
 		}
 
 		#left, #right {
