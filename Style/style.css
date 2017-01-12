@@ -103,4 +103,6 @@
 			padding-top: 1em;
 		}
 
-		 
+		#header .p, #footer .p{
+			color:black;
+		}
