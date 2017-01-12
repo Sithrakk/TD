@@ -13,7 +13,7 @@
 			var bodyText=["If you want to gather honey, don't kick over the beehive.", "Bee different.", "If we die, we're taking you with us. - Bees", "This, too, will pass.", "</p><p>Honey is sweet, but bees still sting.", "Peace comes from within. Do not seek it without.", "<h3>Hives</h3><p>A beehive is an enclosed structure in which some honey bee species of the subgenus Apis live and raise their young."]
 			function generateText(sentenceCount){
 				for (var i=0; i<sentenceCount; i++)
-				document.write(bodyText[Math.floor(Math.random()*7)]+" ")
+				document.write(bodyText[Math.floor(Math.random()*8)]+" ")
 			}
 		</script>	
 	</head>
@@ -28,7 +28,7 @@
 			<article>
 				<h1>Honey</h1>
 				<img src="Test1.png" style="width:450px;height:375px;">
-				<p><script>generateText(50)</script></p>
+				<p><script>generateText(20)</script></p>
 			
 			</article>								
 		</main>
@@ -47,7 +47,7 @@
 
 		<div id="right" class="column">
 			<h3>Right heading</h3>
-			<p><script>generateText(1)</script></p>
+			<p><script>generateText(3)</script></p>
 		</div>
 
 	</div>
